@@ -1,0 +1,25 @@
+# === SECRETS — never go on GitHub ===
+.env
+*.pem
+*.key
+
+# === PYTHON JUNK ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# === TERRAFORM STATE ===
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# === EDITOR JUNK ===
+.idea/
+.vscode/
+.DS_Store
+
+# === DATA FILES (too big for GitHub) ===
+*.log
+*.csv
+*.parquet
