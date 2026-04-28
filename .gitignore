@@ -22,4 +22,4 @@ venv/
 # === DATA FILES (too big for GitHub) ===
 *.log
 *.csv
-*.parquet
+*.parquet.venv/
